@@ -1,0 +1,26 @@
+.page-link{
+  background-color:#375a7f;
+}
+
+.page-item.active .page-link {
+ background-color: black;
+}
+
+a.page-link:hover{
+  background-color: black;
+}
+
+li.pagination-prev.page-item.disabled.ng-star-inserted .page-link {
+  background-color: rgb(40, 52, 92)
+}
+
+li.pagination-first.page-item.disabled.ng-star-inserted .page-link{
+ background-color: rgb(40, 52, 92)
+}
+li.pagination-next.page-item.ng-star-inserted.disabled .page-link{
+  background-color: rgb(40, 52, 92)
+}
+li.pagination-last.page-item.ng-star-inserted.disabled .page-link{
+  background-color: rgb(40, 52, 92)
+}
+
