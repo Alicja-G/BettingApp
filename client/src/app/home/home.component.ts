@@ -24,4 +24,8 @@ registerMode = false;
   cancelRegisterMode(event: boolean) {
     this.registerMode = event;
   }
+
+   showInfo() {
+     console.log('Info');
+   }
 }
